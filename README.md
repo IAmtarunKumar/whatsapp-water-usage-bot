@@ -77,7 +77,7 @@ Note the forwarding URL provided by Ngrok and update the webhook URL in your Twi
 
 ## Screenshort of whatsapp chatbot
 
-![WhatsApp Chat Example](./screenshort/Screenshot_10.png)
+![WhatsApp Chat Example](./screenshort/Screenshot_161.png)
 
 
 ## Demo Video
