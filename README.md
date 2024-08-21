@@ -33,7 +33,10 @@ This project involves creating a WhatsApp bot that collects water usage data fro
    ```
 
 
-
+5. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
 
 
@@ -57,6 +60,8 @@ Note the forwarding URL provided by Ngrok and update the webhook URL in your Twi
    node index.js
    ```
 
+   
+
 ## Running the Application
 
 - After starting the server, the bot will automatically send a message to the user every 5 minutes asking for water usage data.
@@ -69,6 +74,11 @@ Note the forwarding URL provided by Ngrok and update the webhook URL in your Twi
 - Node.js and Express.js: Handles incoming messages and stores data in an Excel file.
 - xlsx: Manages the creation and updating of the Excel file.
 - Ngrok: Exposes the local server for testing with the WhatsApp API.
+
+## Screenshort of whatsapp chatbot
+
+![WhatsApp Chat Example](./screenshort/Screenshot_10.png)
+
 
 ## Demo Video
 
