@@ -21,14 +21,14 @@ This project involves creating a WhatsApp bot that collects water usage data fro
 - **Node.js**: JavaScript runtime for building the backend.
 - **Express.js**: Web framework for Node.js.
 - **Twilio/Gupshup API**: For interacting with WhatsApp.
-- **ExcelJS**: For creating and manipulating Excel sheets.
+- **xlsx**: For creating and manipulating Excel sheets.
 - **Ngrok**: For exposing the local server to the internet.
 
 ## Setup Instructions
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/whatsapp-water-usage-bot.git
+   git clone https://github.com/IAmtarunKumar/whatsapp-water-usage-bot.git
    cd whatsapp-water-usage-bot
    ```
 
@@ -43,7 +43,7 @@ This project involves creating a WhatsApp bot that collects water usage data fro
     TWILIO_ACCOUNT_SID=your_twilio_account_sid
     TWILIO_AUTH_TOKEN=your_twilio_auth_token
     TWILIO_PHONE_NUMBER=your_twilio_phone_number
-    EXCEL_FILE_PATH=./water_usage_data.xlsx
+   
    ```
 
 4. **Start Ngrok**
