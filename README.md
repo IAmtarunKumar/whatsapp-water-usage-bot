@@ -72,7 +72,7 @@ Note the forwarding URL provided by Ngrok and update the webhook URL in your Twi
 
 ## Demo Video
 
-- A short video explaining the application and its code can be found here.
+- A short video explaining the application and its code can be found [here](https://github.com/IAmtarunKumar/whatsapp-water-usage-bot?tab=readme-ov-file#features).
 
 
 
