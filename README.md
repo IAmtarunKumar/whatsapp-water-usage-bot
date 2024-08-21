@@ -34,19 +34,56 @@ This project involves creating a WhatsApp bot that collects water usage data fro
 
 
 
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+
 
 
 
 3. **Configure Environment Variables**
    ```bash
-   TWILIO_ACCOUNT_SID=your_twilio_account_sid
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_PHONE_NUMBER=your_twilio_phone_number
-EXCEL_FILE_PATH=./water_usage_data.xlsx
+    TWILIO_ACCOUNT_SID=your_twilio_account_sid
+    TWILIO_AUTH_TOKEN=your_twilio_auth_token
+    TWILIO_PHONE_NUMBER=your_twilio_phone_number
+    EXCEL_FILE_PATH=./water_usage_data.xlsx
    ```
 
+4. **Start Ngrok**
+   ```bash
+   ngrok http 3000
+   ```
+Note the forwarding URL provided by Ngrok and update the webhook URL in your Twilio/Gupshup settings.
 
+5. **Run the Server**
+   ```bash
+   node index.js
+   ```
+
+## Running the Application
+
+- After starting the server, the bot will automatically send a message to the user every 5 minutes asking for water usage data.
+- The user replies with the amount of water used (e.g., "100 liters").
+- The bot stores the data in the Excel sheet, including the date and the value provided by the user.
+
+## Technical Architecture
+
+- Twilio/Gupshup WhatsApp API: Used for sending and receiving messages.
+- Node.js and Express.js: Handles incoming messages and stores data in an Excel file.
+- xlsx: Manages the creation and updating of the Excel file.
+- Ngrok: Exposes the local server for testing with the WhatsApp API.
+
+## Demo Video
+
+- A short video explaining the application and its code can be found here.
+
+
+
+## Contact
+For any questions or feedback, feel free to reach out:
+
+- Email: tarunkumarmahto2000@gmail.com
+
+
+   ```css
+   
+    Make sure to update any placeholders, such as GitHub links, video links, and environment variable names, with your actual project details.
+
+   ```
